@@ -1,0 +1,38 @@
+{
+    "acl": {
+        "description": "",
+        "required": false,
+        "tag": "",
+        "type": "array"
+    },
+    "internationalCountries": {
+        "description": "",
+        "required": false,
+        "tag": "",
+        "type": "enum"
+    },
+    "publicFeed": {
+        "description": "",
+        "required": false,
+        "tag": "",
+        "type": "boolean"
+    },
+    "time": {
+        "description": "",
+        "required": false,
+        "tag": "",
+        "type": "integer"
+    },
+    "topTraderFeed": {
+        "description": "",
+        "required": false,
+        "tag": "",
+        "type": "boolean"
+    },
+    "user": {
+        "description": "",
+        "required": false,
+        "tag": "",
+        "type": "json"
+    }
+}
