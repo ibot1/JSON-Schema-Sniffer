@@ -69,8 +69,8 @@ class JsonSchemaExtractor:
             "required": False,
         }
 
-    # I added the extra rule types aside the ones mentioned in the PROBLEM.MD because
-    # I think they are valid scenarios
+    # I added the extra rule types aside the ones mentioned in the PROBLEM.MD
+    # and the last email that talked about this because I think they are valid scenarios
     @staticmethod
     def __type_of(obj: Any) -> str:
         if obj is None:
@@ -84,5 +84,5 @@ class JsonSchemaExtractor:
         if isinstance(obj, str):
             return "string"
         if not isinstance(obj, list):
-            return "json"
+            return "object"
         return "enum" if obj and isinstance(obj[0], str) else "array"

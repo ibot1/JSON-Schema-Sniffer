@@ -33,6 +33,6 @@
         "description": "",
         "required": false,
         "tag": "",
-        "type": "json"
+        "type": "object"
     }
 }

@@ -3,13 +3,13 @@
         "description": "",
         "required": false,
         "tag": "",
-        "type": "json"
+        "type": "object"
     },
     "joiner": {
         "description": "",
         "required": false,
         "tag": "",
-        "type": "json"
+        "type": "object"
     },
     "participantIds": {
         "description": "",
